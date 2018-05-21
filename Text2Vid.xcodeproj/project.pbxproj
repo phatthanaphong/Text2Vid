@@ -47,6 +47,7 @@
 		1704216B20B1DC73009C2554 /* Text2VidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Text2VidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1704216F20B1DC73009C2554 /* Text2VidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text2VidUITests.swift; sourceTree = "<group>"; };
 		1704217120B1DC73009C2554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1704218A20B2B8B5009C2554 /* opencv2 2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "opencv2 2.framework"; path = "../../../../../Downloads/opencv2 2.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				1704216320B1DC73009C2554 /* Text2VidTests */,
 				1704216E20B1DC73009C2554 /* Text2VidUITests */,
 				1704214D20B1DC72009C2554 /* Products */,
+				1704218920B2B8B5009C2554 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +125,14 @@
 				1704217120B1DC73009C2554 /* Info.plist */,
 			);
 			path = Text2VidUITests;
+			sourceTree = "<group>";
+		};
+		1704218920B2B8B5009C2554 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1704218A20B2B8B5009C2554 /* opencv2 2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
